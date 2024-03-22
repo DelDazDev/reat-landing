@@ -1,6 +1,5 @@
 import "../styles/Cards.css";
-import img from "../../public/images/desktop/image-deep-earth.jpg"
-import {card} from "../data/data";
+import {card} from "../components/data/data";
 
 
 const Cards = () => {
