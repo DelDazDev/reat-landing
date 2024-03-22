@@ -1,0 +1,48 @@
+.container__footer {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container__footer h4 {
+    font-size: 1.4rem;
+  }
+
+.container__footer .footer__enlaces ul{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 1rem;
+  margin-top: 0.7rem;
+}
+
+.container__footer .footer__enlaces a {
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.footer__iconos {
+  display: flex;
+  gap:0.7rem ;
+}
+
+.footer__autor {
+  margin-top:1rem ;
+  font-size: 0.7rem;
+}
+
+@media screen and (max-width:510px) {
+  .container__footer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer__enlaces ul{
+    flex-direction: column;
+  }
+  .footer__iconos {
+    margin-top: 1rem;
+  }
+}
